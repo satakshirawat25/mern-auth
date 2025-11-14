@@ -5,7 +5,7 @@ dotenv.config();
 
 const connectDB = async()=>{
     try{
-         await mongoose.connect(`${process.env.MONGODB_URI}/mern-auth`)
+         await mongoose.connect(`${process.env.MONGODB_URI}`)
 
          mongoose.connection.once('connected',()=>{
             console.log("mongodb connected")
