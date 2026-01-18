@@ -1,0 +1,1 @@
+A secure authentication and authorization system built using the MERN stack that enables user registration, login, logout, and protected routes. The application uses JWT-based authentication to securely manage user sessions and restrict access to authorized users only.
